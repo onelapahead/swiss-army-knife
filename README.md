@@ -7,7 +7,7 @@ Feel free to add more.
 
 ### Usage
 
-Create a Pod named `debug` in your desired namespace:
+Create a Pod named `debug` in your desired namespace to get a shell with all the toolz:
 
 ```bash
 $ kubectl run -i -t --image=brix4dayz/swiss-army-knife --restart=Never debug -n <namespace>
