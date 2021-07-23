@@ -2,7 +2,7 @@ FROM alpine:3.9
 
 USER root
 
-RUN apk add --update --no-cache curl jq netcat-openbsd tcpdump bind-tools openssl rsync openssh
+RUN apk add --update --no-cache curl jq netcat-openbsd tcpdump bind-tools openssl rsync openssh tcptraceroute
 
 ENTRYPOINT ["/opt/entrypoint.sh", "/bin/sh"]
 
